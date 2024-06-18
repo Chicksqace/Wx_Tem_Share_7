@@ -1,0 +1,91 @@
+page{
+  background-color: #403D4C;
+}
+.logo{
+  display: flex;
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  height: 80rpx;
+  align-items: center;
+}
+.logo image{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+}
+.logo text{
+  font-size: 28rpx;
+  color: #fff;
+  margin-left: 10rpx;
+}
+.center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80rpx;
+  position: relative;
+}
+.center .bg{
+  width: 560rpx;
+  height: 560rpx;
+  position: relative;
+}
+.center .gq{
+  width: 360rpx;
+  height: 360rpx;
+  position: absolute;
+  top: 102rpx;
+  border-radius: 50%;
+}
+.bfan{
+  position: absolute;
+  top: 234rpx;
+}
+.bfan image{
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.geci{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  justify-content: center;
+  margin-top: 40rpx;
+}
+.geci view{
+  width: 100%;
+  text-align: center;
+  color: #666;
+  font-size: 32rpx;
+  margin: 20rpx 0;
+}
+.geci view.current{
+  color: #fff;
+}
+
+.shares{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 80rpx;
+}
+.fd{
+  width: 340rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 32rpx;
+  border: 1px solid #fff;
+  border-radius: 40rpx;
+}
+.shares button{
+  position: absolute;
+  width: 340rpx;
+  height: 72rpx;
+  opacity: 0;
+  z-index: 99;
+}

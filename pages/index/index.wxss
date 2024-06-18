@@ -1,0 +1,61 @@
+/**index.wxss**/
+.container{
+  width:100%;
+  display: flex;
+  padding: 30rpx;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.serch{
+  display: flex;
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 76rpx;
+  align-items: center;
+  border-radius: 64rpx;
+  padding-left: 22rpx;
+  box-sizing: border-box;
+  margin-bottom: 40rpx;
+}
+.ph{
+  font-size: 32rpx;
+  color: #bdbdbd;
+}
+.phc{
+  padding-left: 22rpx;
+}
+
+.bang{
+  width: 100%;
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.bangl{
+  position: relative;
+}
+.bangl_img{
+  width: 240rpx;
+  height: 240rpx;
+  border-radius: 8rpx;
+  position: relative;
+  display: block;
+}
+.bangl_text{
+  font-size: 24rpx;
+  color: #fff;
+  position: absolute;
+  left: 12rpx;
+  bottom: 16rpx;
+}
+.bangr{
+  display: flex;
+  flex-direction: column;
+  padding: 15rpx 0;
+  margin-left: 20rpx;
+}
+.bangr .bangrl{
+  height: 70rpx;
+  line-height: 70rpx;
+  color: #777;
+  font-size: 28rpx;
+}

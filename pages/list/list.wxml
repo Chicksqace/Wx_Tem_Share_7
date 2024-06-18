@@ -1,0 +1,106 @@
+<navigation title='歌单' my_class="{{true}}" show_bol='{{true}}' my_class='{{false}}' content_offset='{{true}}'></navigation>
+<view class="top">
+  <view class="listinfo">
+    <view class="listinfol">
+      <image src="/common/image/bsb.jpg"></image>
+      <view class="bofang">
+        <image src="/common/image/bofang.png"></image>
+        <text>33.6亿</text>
+      </view> 
+    </view>
+    <view class="listinfor">
+      <view class="listtitle">云音乐飙升榜</view>
+      <view class="listauthor">
+        <image src="/common/image/logo.jpg"></image>
+        <view class="author">网易云音乐</view>
+      </view>
+      <view class="listdesc">云音乐中每天热度上升最快的100首单曲，每日更新。＞</view>
+    </view>
+  </view>
+
+  <view class="sharebutton">
+    <image src="/common/image/fenxiang.png"></image>
+    <view>分享给微信好友</view>
+    <button open-type="share">分享</button>
+  </view>
+  
+
+</view>
+
+<view class="songlists">
+  <view class="count">
+    <image src="/common/image/bfq.png"></image>
+    <view class="countt1">播放全部</view>
+    <view class="countt2">(共100首)</view>
+  </view>
+
+  <view class="songlist" bindtap="bofang">
+    <view class="songlistl">
+      <view class="order">1</view>
+      <view class="songinfo">
+        <view class="songtitle">天外莱芜</view>
+        <view class="singer">
+        <text class="icon">独家</text>
+        <text class="icon">SQ</text>
+        薛之谦-天外来物</view>
+      </view>
+    </view>
+    <image class="songlistr" src="/common/image/bf2.png"></image>
+  </view>
+  <view class="songlist">
+    <view class="songlistl">
+      <view class="order">2</view>
+      <view class="songinfo">
+        <view class="songtitle">天外莱芜</view>
+        <view class="singer">
+        <text class="icon">独家</text>
+        <text class="icon">SQ</text>
+        薛之谦-天外来物</view>
+      </view>
+    </view>
+    <image class="songlistr" src="/common/image/bf2.png"></image>
+  </view>
+
+<view class="songlist">
+    <view class="songlistl">
+      <view class="order">3</view>
+      <view class="songinfo">
+        <view class="songtitle">天外莱芜</view>
+        <view class="singer">
+        <text class="icon">独家</text>
+        <text class="icon">SQ</text>
+        薛之谦-天外来物</view>
+      </view>
+    </view>
+    <image class="songlistr" src="/common/image/bf2.png"></image>
+  </view>
+<view class="songlist">
+    <view class="songlistl">
+      <view class="order">4</view>
+      <view class="songinfo">
+        <view class="songtitle">天外莱芜</view>
+        <view class="singer">
+        <text class="icon">独家</text>
+        <text class="icon">SQ</text>
+        薛之谦-天外来物</view>
+      </view>
+    </view>
+    <image class="songlistr" src="/common/image/bf2.png"></image>
+  </view>
+
+  <view class="songlist">
+    <view class="songlistl">
+      <view class="order">5</view>
+      <view class="songinfo">
+        <view class="songtitle">天外莱芜</view>
+        <view class="singer">
+        <text class="icon">独家</text>
+        <text class="icon">SQ</text>
+        薛之谦-天外来物</view>
+      </view>
+    </view>
+    <image class="songlistr" src="/common/image/bf2.png"></image>
+  </view>
+</view>
+
+

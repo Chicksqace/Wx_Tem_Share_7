@@ -1,0 +1,10 @@
+<view class="container">
+
+  <view class="serch">
+    <icon class="icon-small" color="#bdbdbd" type="search" size="24"></icon>
+    <input class="weui-input phc" placeholder="搜索歌曲" placeholder-class="ph" />
+  </view>
+
+  
+
+</view>

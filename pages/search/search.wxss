@@ -1,0 +1,30 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  padding-top: 50rpx;
+}
+
+.serch{
+  display: flex;
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 76rpx;
+  align-items: center;
+  border-radius: 64rpx;
+  padding-left: 22rpx;
+  box-sizing: border-box;
+  margin-bottom: 40rpx;
+}
+.serch .ph{
+  font-size: 32rpx;
+  color: #bdbdbd;
+}
+.serch .phc{
+  padding-left: 22rpx;
+}
+
+
+

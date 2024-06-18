@@ -1,0 +1,28 @@
+<!--
+wx.getMenuButtonBoundingClientRect() 获取胶囊的位置信息
+-->
+<view class="logo">
+  <image src="/common/image/logo.jpg"></image>
+  <text>网易云音乐</text>
+</view>
+
+<view class="center">
+  <image class="bg" src="/common/image/singlecover.png" animation="{{animation}}"></image>
+  <image class="gq" src="/common/image/gq.jpg" animation="{{animation}}"></image>
+  <view class="bfan">
+    <image class="bofang zt" wx:if="{{state}}" bindtap="pause" src="/common/image/fang.png"></image>
+    <image class="bofang" wx:else bindtap="play" src="/common/image/ting.png"></image>
+  </view>
+</view>
+
+<view class="geci">
+  <view class="nnn">十年之后的这片海风</view>
+  <view class="current">请记得签收</view>
+</view>
+
+<view class="shares">
+  <view class="fd">分享给微信好友</view>
+  <button open-type="share"></button>
+</view>
+
+

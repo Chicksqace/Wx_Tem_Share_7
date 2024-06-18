@@ -1,0 +1,51 @@
+/* 顶部导航 */
+.navigation.status-bar {
+  width: 100%;
+  z-index: 99998;
+  position: fixed;
+  top: 0;
+}
+.navigation.status-bar .leftjn{
+  position: absolute;
+  font-size:28rpx;
+  background: #3A5D8B;
+  border-radius: 64rpx;
+}
+.navigation.status-bar .goBack image{
+  width: 40rpx;
+  height: 40rpx;
+  padding: 0 15px 0 10px;
+  border-right: 1px solid #ccc;
+}
+.navigation.status-bar .tabar {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+.navigation.status-bar .tabar2{
+  background: transparent !important;
+}
+.navigation.status-bar .tabar2 text{
+  color: #fff !important;
+  /* font-weight: lighter !important; */
+}
+.navigation.status-bar .tabar text {
+  height: 44px;
+  line-height: 44px;
+  /* padding: 10pt 15pt; */
+  color: #fff;
+  font-size: 32rpx;
+  /* font-weight: bold; */
+}
+.navigation.status-bar .tabar .active {
+  color: #fff;
+}
+.leftjn{
+  display: flex;
+
+}
+.goindeximg{
+  width: 40rpx;
+  height: 40rpx;
+  padding: 0 15px 0 10px;
+}

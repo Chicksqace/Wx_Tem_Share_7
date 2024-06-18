@@ -1,0 +1,81 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="serch">
+     <icon class="icon-small" color="#bdbdbd" type="search" size="24"></icon>
+     <input class="weui-input phc" placeholder="搜索歌曲" placeholder-class="ph" />
+  </view>
+
+  <view class="bang" bindtap="openUrl">
+    <view class="bangl">
+      <image src="/common/image/bsb.jpg" class="bangl_img"></image>
+      <text class="bangl_text">每天更新</text>
+    </view>
+    <view class="bangr">
+      <view class="bangrl">  
+      1.天外来物 - 薛之谦
+      </view>
+      <view class="bangrl">  
+      2.好想爱这个世界啊 - 华晨宇
+      </view>
+      <view class="bangrl">  
+      3.与火星的孩子对话 - 华晨宇
+      </view>
+    </view>
+  </view>
+
+  <view class="bang" bindtap="openUrl">
+    <view class="bangl">
+      <image src="/common/image/xgb.jpg" class="bangl_img"></image>
+      <text class="bangl_text">每天更新</text>
+    </view>
+    <view class="bangr">
+      <view class="bangrl">  
+      1.天外来物 - 薛之谦
+      </view>
+      <view class="bangrl">  
+      2.好想爱这个世界啊 - 华晨宇
+      </view>
+      <view class="bangrl">  
+      3.与火星的孩子对话 - 华晨宇
+      </view>
+    </view>
+  </view>
+
+  <view class="bang" bindtap="openUrl">
+    <view class="bangl">
+      <image src="/common/image/rgb.jpg" class="bangl_img"></image>
+      <text class="bangl_text">每天更新</text>
+    </view>
+    <view class="bangr">
+      <view class="bangrl">  
+      1.天外来物 - 薛之谦
+      </view>
+      <view class="bangrl">  
+      2.好想爱这个世界啊 - 华晨宇
+      </view>
+      <view class="bangrl">  
+      3.与火星的孩子对话 - 华晨宇
+      </view>
+    </view>
+  </view>
+
+  <view class="bang" bindtap="openUrl">
+    <view class="bangl">
+      <image src="/common/image/ycb.jpg" class="bangl_img"></image>
+      <text class="bangl_text">每天更新</text>
+    </view>
+    <view class="bangr">
+      <view class="bangrl">  
+      1.天外来物 - 薛之谦
+      </view>
+      <view class="bangrl">  
+      2.好想爱这个世界啊 - 华晨宇
+      </view>
+      <view class="bangrl">  
+      3.与火星的孩子对话 - 华晨宇
+      </view>
+    </view>
+  </view>
+
+</view>

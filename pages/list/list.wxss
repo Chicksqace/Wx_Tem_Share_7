@@ -1,0 +1,155 @@
+/* pages/list/list.wxss */
+page{
+  background-color: #4470AB;
+}
+.top{
+  /* background-image: linear-gradient(to top,#4570AC,#5E81B2); */
+  width: 100%;
+  padding-top: 80rpx;
+}
+.listinfo{
+  display: flex;
+  padding: 0 30rpx;
+  width:100%;
+  box-sizing: border-box;
+}
+.listinfol{
+  position: relative;
+}
+.listinfol image{
+  width: 290rpx;
+  height: 290rpx;
+  border-radius: 8rpx;
+  position: relative;
+}
+.bofang{
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 10rpx;
+  display: flex;
+  align-items: center;
+}
+.bofang image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.listauthor image{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+}
+.sharebutton image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.sharebutton button{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 99;
+}
+.listinfor{
+  margin-left: 40rpx;
+
+}
+.listtitle{
+  font-size: 34rpx;
+  color: #fff;
+}
+.listauthor{
+  display: flex;
+  color: #fff;
+  font-size: 28rpx;
+  color: #e2e2e2;
+  height:60rpx;
+  align-items: center;
+  margin: 20rpx 0;
+}
+.author{
+  margin-left: 20rpx;
+}
+.listdesc{
+  font-size: 24rpx;
+  color: #e6e6e6;
+}
+.sharebutton{
+  display: flex;
+  height: 80rpx;
+  align-items: center;
+  color: #fff;
+  font-size: 30rpx;
+  background: #5E82BA;
+  width: 372rpx;
+  justify-content: center;
+  border-radius: 56rpx;
+  position: relative;
+  left: 50%;
+  margin-left: -186rpx;
+  margin-top: 40rpx;
+}
+.songlist{
+  display: flex;
+  justify-content: space-between;
+  height: 100rpx;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.songlists{
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 32rpx;
+  margin-top: 40rpx;
+}
+
+.count{
+  width: 100%;
+  display: flex;
+  height: 80rpx;
+  align-items: center;
+}
+.count image,.songlistr{
+  width: 50rpx;
+  height: 50rpx;
+}
+.countt1{
+  font-size: 34rpx;
+  margin-left: 34rpx;
+  margin-right: 8rpx;
+}
+.countt2{
+  font-size: 28rpx;
+  color: #ccc;
+}
+.songlistl{
+  display: flex;
+  height: 100rpx;
+  align-items: center;
+}
+.songinfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 34rpx;
+}
+.songtitle{
+  font-size: 32rpx;
+  color: #333;
+}
+.singer{
+  font-size: 24rpx;
+  color: #999;
+}
+.singer .icon{
+  font-size: 18rpx;
+  color: #ff0000;
+  border: 1rpx solid #ff0000;
+  margin-right: 10rpx;
+}
+.order{width: 42rpx;height: 100rpx;line-height: 100rpx;color: #999;}
